@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <table>
+        <tr >
+            <td colspan="3"><input type="text" id="result"></td>
+            <td><input type="button" value="C" onclick="clr()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="dis(value)"></td>
+            <td><input type="button" value="2" onclick="dis(value)"></td>
+            <td><input type="button" value="3" onclick="dis(value)"></td>
+            <td><input type="button" value="/" onclick="dis(value)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4"onclick="dis(value)"></td>
+            <td><input type="button" value="5" onclick="dis(value)"></td>
+            <td><input type="button" value="6" onclick="dis(value)"></td>
+            <td><input type="button" value="-" onclick="dis(value)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="dis(value)"> </td>
+            <td><input type="button" value="8" onclick="dis(value)"></td>
+            <td><input type="button" value="9" onclick="dis(value)"></td>
+            <td><input type="button" value="+" onclick="dis(value)"></td>
+        </tr> 
+        <tr>
+            <td><input type="button" value="*" onclick="dis(value)"></td>
+            <td><input type="button" value="%" onclick="dis(value)"></td>
+            <td><input type="button" value="0" onclick="dis(value)"></td>
+            <td><input type="button" value="=" onclick="solve()"></td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+    </table>
+    <script src="./cal.js"></script>
+</body>
+</html>
